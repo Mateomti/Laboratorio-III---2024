@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Formularios</title>
+    <link rel="stylesheet" href="prueba.css">
+    <style>
+        .inp{
+            height: 30px;
+            padding-right: 170px;
+        }
+        textarea{
+            height: 30px;
+            margin-left: 10px;
+        }
+        td{
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id="titulo" align="center">Ejercicio 1</h1>
+    <form action="" method="post">
+        <table
+      align="center"
+      border="2"
+      bgcolor="black"
+      width="600px"
+      style="font-size: larger"
+    >
+    <tr bgcolor="#8279F7">
+        <td colspan="2"><center>Contacto</center></td>
+    </tr>
+    <tr>
+        <td bgcolor="#D7D2F7" height="40px">
+            <label for="nomyape" ">Nombre y Apellido </label>
+        </td>
+        <td bgcolor="#D7D2F7" height="40px">
+            <input class="inp" type="text" id="nomyape" placeholder="Ingrese nombre y apellido." >
+
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#D7D2F7" height="40px">
+            <label for="telefono">Telefono</label>
+        </td>
+        <td bgcolor="#D7D2F7" height="40px" >
+            <input class="inp" type="text" id="telefono" placeholder="2964-12334567">
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#D7D2F7">
+            <label for="email">Email</label>
+        </td>
+        <td bgcolor="#D7D2F7" height="40px">
+            <input class="inp" type="email" name="email" id="email">
+
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#D7D2F7" height="40px">
+            <label for="consulta">Tipo de consulta</label>
+        </td>
+        <td bgcolor="#D7D2F7" height="40px">
+            <select class="inp" name="consulta" id="consulta" value="Opcion"> 
+                <option value="soporte">Soporte</option>
+                <option value="inscripcion">Inscripcion</option>
+                <option value="solicitud">Solicitud</option>
+                <option value="equivalencias">Equivalencias</option>
+                <option value="otros">Otros</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#D7D2F7" height="40px">
+            <label for="dni">D.N.I.</label>
+        </td>
+        <td bgcolor="#D7D2F7" height="40px">
+            <input class="inp" type="number" name="dni" id="dni" min="5000000" max="1000000000">
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#D7D2F7" height="40px">
+            <label for="direccion">Direccion</label>
+        </td>
+        <td bgcolor="#D7D2F7" height="40px">
+            <input class="inp" type="text" name="direccion" id="direccion">
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#D7D2F7" height="40px">
+            <label for="consulta">Consulta</label>
+        </td>
+        <td bgcolor="#D7D2F7" height="40px">
+            <textarea name="consulta" id="consulta" cols="30" rows="3"></textarea>
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#D7D2F7" height="40px">
+            <label for="fnac">Fecha de nacimiento</label>
+        </td>
+        <td bgcolor="#D7D2F7" height="40px">
+            <input type="date" name="fnac" id="fnac">
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#D7D2F7">
+            <label for="tersec">Termino el Secundario</label>
+        </td>
+        <td bgcolor="#D7D2F7">
+            <input type="radio" name="tersec" id="tersec"> Si
+            <input type="radio" name="tersec" id="tersec"> No
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" 
+        bgcolor="#D7D2F7" 
+        align="center">
+            <input class="inp" type="submit" value="Enviar">
+            <input class="inp" type="reset" value="Borrar">
+        </td>
+    </tr>
+    </table>
+    </form>
+</body>
+
+<footer>
+    <img
+    class="utntdf"
+    src="imagenes/descargar.jpeg"
+    width="400px"
+    align="bottomleft"
+    >
+    <a href="index.html">
+        <img 
+        class="utntdf"
+        src="/imagenes/volver.png"
+        width="100px"
+        align="right">
+    </a>
+</footer>
+</html>
